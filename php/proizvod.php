@@ -5,20 +5,11 @@ $database ="avrban";
 $username="avrban";
 $password ="11";
 $conn = mysqli_connect($server,$username,$password,$database);
-$query = "SELECT * FROM proizvod";
+$query = "SELECT * FROM proizvid";
 $res = mysqli_query($conn, $query);
 ?>
 
-<table class="w3-table-all">
-            <tr class="w3-red">
-                <th></th>
-                <
-                <th>Naziv uredaja</td>
-                     <th>Slika</td>
-                     <th>Opis</td>
-                    <th>Specifikacije</td>
-                   <th>Cijena</td>
-            </tr>
+
 
             <?php
 while($row = mysqli_fetch_array($res)){

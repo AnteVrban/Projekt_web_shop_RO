@@ -30,8 +30,13 @@
                             
                             <th>Naziv uredaja</td>
                             <th>Slika</td>
+                            <th>Cijena</td>
                             <th>Opis</td>
                             <th>Specifikacije</td>
-                            <th>Cijena</td>
                         
                         </tr>
+                        <?php
+                        include "../php/proizvod.php";
+                        ?>
+                        </body>
+                        </html>
